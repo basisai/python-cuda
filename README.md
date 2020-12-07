@@ -2,7 +2,8 @@
 
 Docker image with Python and CUDA driver installed on Ubuntu.
 
-The image is published on Docker Hub at [basisai/python-cuda](https://hub.docker.com/r/basisai/python-cuda).
+The image is published on Docker Hub at
+[quay.io/basisai/python-cuda](https://quay.io/basisai/python-cuda).
 
 ## Tag
 

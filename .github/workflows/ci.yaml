@@ -1,4 +1,4 @@
-name: Build and test spark image
+name: Build and Push Images
 
 on:
   pull_request:

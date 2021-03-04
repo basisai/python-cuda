@@ -8,6 +8,7 @@ RUN echo "deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu bionic main" >> /et
     && apt-get install -y \
         libgomp1 \
         python3.9-distutils \
+        libopencv-dev \
         curl \
     && apt-get install -y python3.9 \
     && rm -rf /var/lib/apt/lists/* \

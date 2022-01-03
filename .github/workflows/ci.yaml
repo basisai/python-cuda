@@ -75,6 +75,8 @@ jobs:
           retention-days: 1
   scan:
     runs-on: [self-hosted, docker, integration]
+    env:
+      IMAGE_NAME: python-cuda
     needs: build
     strategy:
       matrix:
